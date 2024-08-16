@@ -41,7 +41,7 @@ function LoginForm() {
         />
         <button>Enviar</button>
       </form>
-      <Link to="/login/criar">Cadastro</Link>
+      <Link to="/login/criar">teste</Link>
     </section>
   );
 }
