@@ -1,7 +1,16 @@
 import React from 'react';
 
 function useForm() {
-  return <div></div>;
+  const [value, setValue] = React.useState('');
+
+  function onChange({ target }) {
+    setValue(target.value);
+  }
+
+  return {
+    value,
+    setValue,
+  };
 }
 
 export default useForm;
