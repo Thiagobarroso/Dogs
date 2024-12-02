@@ -1,2 +1,2 @@
-Rede Socias para cachorros
+Rede Social para cachorros
 # Dogs
